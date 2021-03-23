@@ -1,9 +1,22 @@
 <template>
-  <div>
-    <Nuxt />
-  </div>
+  <v-app dark>
+    <MenuBar />
+    <v-main>
+      <v-container fluid>
+        <Nuxt />
+      </v-container>
+    </v-main>
+  </v-app>
 </template>
+<script>
+import MenuBar from '@/components/MenuBar.vue'
 
+export default {
+  components: {
+    MenuBar,
+  },
+}
+</script>
 <style>
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
