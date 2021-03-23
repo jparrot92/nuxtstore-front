@@ -9,6 +9,15 @@ $ npm install
 # serve with hot reload at localhost:3000
 $ npm run dev
 
+# Install JSON Server
+$ npm install -g json-server
+
+# run FAKE API
+$ json-server --watch db.json --port 3004
+
+# serve with hot reload at localhost:3000
+$ npm run dev
+
 # build for production and launch server
 $ npm run build
 $ npm run start
